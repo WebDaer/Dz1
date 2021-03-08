@@ -18,9 +18,9 @@ using System.Windows.Controls;
         }
         else
         {
-			a.Content = "Кнопка работает";
-		}
+		a.Content = "Кнопка работает";
 	}
+	
 }
 class NClick : Click // Наследование 
 {
