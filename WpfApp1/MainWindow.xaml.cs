@@ -31,10 +31,10 @@ namespace WpfApp1
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            NClick c = new NClick();//Создаю объект класса NClick
+            NClick c = new NClick();
             c.Clicken(Label1);
           
-            UpdateClick a = new UpdateClick();//Создаю объект класса UpdateClick
+            UpdateClick a = new UpdateClick();
             a.Clicken(Label2);
 
         }
