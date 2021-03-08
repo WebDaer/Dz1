@@ -14,7 +14,7 @@ using System.Windows.Controls;
 		string b = Convert.ToString(a.Content);
 		if (b != "")
         {
-			Cliar(a);//Могу использовать только в этом клссе
+			Cliar(a);
         }
         else
         {
@@ -22,11 +22,11 @@ using System.Windows.Controls;
 		}
 	}
 }
-class NClick : Click // Наследование Это копирование всех методов, переменных, функций из другого класса
+class NClick : Click // Наследование 
 {
 
 }
-class UpdateClick : NClick //Полиморфизм
+class UpdateClick : NClick // Полиморфизм
 {
     public override void Clicken(Label a)
     {
